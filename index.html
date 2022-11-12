@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="10">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="jquery/jquery.min.js"></script>
+  
+ 
+  <style>
+
+   body {font-family:'Exo',Liberation Serif;font-size:14px;}
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set white background color and 200% height */
+    .sidenav {
+      padding-top: 40px;
+      background-color: white;
+      height: 260%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 00px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 25px;
+      }
+      .row.content {height:auto;} 
+    }
+
+.nav.navbar-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: none;
+  }
+}
+
+ .b1,.b2
+{
+display: none;
+}
+
+html,body{
+    height: 100%
+}
+img {
+  border-radius: 50%;
+}
+
+
+
+  </style>
+
+<script  >
+
+var d = new Date();
+var dayOfWeek = d.getDay();
+var hour = d.getHours();
+var mins = d.getMinutes();
+var statusofb1 = 'closed';
+var statusofb2 = 'closed';
+if (dayOfWeek == 1 &&  hour >= 11 && mins >=00 && hour < 12){
+    if (hour =='11' && mins >='51' && mins < '53'){
+        statusofb1 = 'open';
+    }
+
+}
+
+if (dayOfWeek == 4 &&  hour >= 11 && mins >=00 && hour < 12){
+   if (hour=='11' && mins >='00' && mins < '00'){
+        statusofb2 = 'open';
+    }
+
+}
+
+
+
+$(document).ready(function()
+{
+
+if (statusofb1=='open') {
+    $('.b1').show();
+    $('.b2').hide();
+}
+
+if (statusofb2=='open') {
+    $('.b2').show();
+    $('.b1').hide();
+}
+
+ });
+
+
+
+</script>
+
+</head>
+<body style="background-color:#92c6fd;">
+
+
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      
+    </div>
+    <div class="col-sm-8 "> 
+            <div <h3 style="color:black;text:left; background-color:gray;font-size:20px; font-weight:bold"<h4>BIO DATA </h4> </div>
+			<h3><b>ADARSH KUMAR SRIVASTAVA</h3><h4>(Senior Project Associate)<br><p style="color:blue"> Email : srivast1988@gmail.com, adarshsr@iitk.ac.in, Mo No : +91-9554244555</br></h4> </p>
+			<h4><b>  </b></h4>
+			<hr style="height:2px;border-width:0;color:gray;background-color:Black">
+<style>	
+</style>
+<div <h3 style="color:black;text:left; background-color:gray;font-size:20px; font-weight:bold"
+	<left> Career Objective </left></h3></div>
+ 
+             <h4> <span style='font-size:15px;'>&#9673;</span> To gain practical experience & an insight into the working of a 
+professionally managed organization, this allows me to expand upon my 
+knowledge and skills by contributing in the best way. </h4>
+<hr style="height:2px;border-width:0;color:gray;background-color:Black">
+
+<div <h3 style="color:black;text:left; background-color:gray;font-size:20px; font-weight:bold"
+	<left> Work Experience Professional Profile (( 10 Year ))  </left></h3></div>
+ 
+             <h4> <span style='font-size:15px;'>&#9673;</span> Company name : Indian Institute of Technology, Kanpur <br> From : 11 June 2017 to Till Now. </h4>
+			 <h4> <span style='font-size:15px;'>&#9673;</span> Company name : Vayam Info Solutions Private Ltd (Wipro ltd)  <br> From : 05 January 2015 to 10 June 2017 </h4>
+			 <h4> <span style='font-size:15px;'>&#9673;</span> Company name : HCL Infosystems Ltd. <br> From : June 2011 to Dec 2014. </h4>
+			
+
+<div <h3 style="color:black;text:left; background-color:gray;font-size:20px; font-weight:bold"
+	<left> Educational Qualification </left></h3></div>
+	 <h4> <span style='font-size:15px;'>&#9673;</span> Bachelor of Technology (Electronic and Communication Engineering) <br> From : Dr. R M L Avadh University, Faizabad <br> year 2008 </h4>
+			 <h4> <span style='font-size:15px;'>&#9673;</span> Intermediate (PCM)   <br> From : Uttar Pradesh Board, Allahabad <br> Year 2004 </h4>
+			 <h4> <span style='font-size:15px;'>&#9673;</span> Matriculation <br> From : Uttar Pradesh Board, Allahabad <br> Year 2002 </h4>
+			 <div <h3 style="color:black;text:left; background-color:gray;font-size:20px; font-weight:bold"
+	<left> Skills </left></h3></div>
+	 <h4> <span style='font-size:15px;'>&#9673;</span> Language: Hindi $ English </h4>
+			 <h4> <span style='font-size:15px;'>&#9673;</span> Computer Skills   <br> <span style='font-size:15px;'>&#9672;</span> Windows Operating System <span style='font-size:15px;'>&#9672;</span> Linux Operating System <span style='font-size:15px;'>&#9672;</span> Microsoft Office 365 
+			 <span style='font-size:15px;'>&#9672;</span> C++, HTML <span style='font-size:15px;'>&#9672;</span> AWS </h4>
+			  <hr style="height:2px;border-width:0;color:gray;background-color:Black">
+		
+ <hr>
+             <br>
+    </div>
+    <div class="col-sm-2 sidenav">
+     
+     
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center footer">
+  <p>© 2017-2018 IIT Kanpur. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
